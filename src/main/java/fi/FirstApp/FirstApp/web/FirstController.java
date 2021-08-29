@@ -10,6 +10,6 @@ public class FirstController {
 	@RequestMapping("hello")
 	@ResponseBody
 	public String returnGreetingForName(@RequestParam(name ="firstname", required=false, defaultValue="Käyttäjä")String name) {
-		return "Hello " + name + "!";
+		return "Hello again " + name + "!";
 	}
 }
